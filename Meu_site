@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Meu Primeiro Site</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #6dd5fa, #2980b9);
+      color: #fff;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: rgba(0,0,0,0.3);
+      padding: 20px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 50px 20px;
+    }
+
+    button {
+      padding: 12px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      background: #27ae60;
+      color: white;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #2ecc71;
+    }
+
+    footer {
+      background: rgba(0,0,0,0.3);
+      padding: 15px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>🌐 Bem-vindo ao Meu Site</header>
+
+  <main>
+    <h1>Olá, mundo!</h1>
+    <p>Esse é meu primeiro site com HTML, CSS e JavaScript 🎉</p>
+    <button onclick="mostrarMensagem()">Clique em mim</button>
+    <p id="mensagem"></p>
+  </main>
+
+  <footer>Feito por mim 🚀</footer>
+
+  <script>
+    function mostrarMensagem() {
+      document.getElementById("mensagem").innerText = "Você clicou no botão! 😎";
+    }
+  </script>
+</body>
+</html><!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Meu Primeiro Site</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #6dd5fa, #2980b9);
+      color: #fff;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: rgba(0,0,0,0.3);
+      padding: 20px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 50px 20px;
+    }
+
+    button {
+      padding: 12px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      background: #27ae60;
+      color: white;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #2ecc71;
+    }
+
+    footer {
+      background: rgba(0,0,0,0.3);
+      padding: 15px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>🌐 Bem-vindo ao Meu Site</header>
+
+  <main>
+    <h1>Olá, mundo!</h1>
+    <p>Esse é meu primeiro site com HTML, CSS e JavaScript 🎉</p>
+    <button onclick="mostrarMensagem()">Clique em mim</button>
+    <p id="mensagem"></p>
+  </main>
+
+  <footer>Feito por mim 🚀</footer>
+
+  <script>
+    function mostrarMensagem() {
+      document.getElementById("mensagem").innerText = "Você clicou no botão! 😎";
+    }
+  </script>
+</body>
+</html>
